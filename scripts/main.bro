@@ -4,6 +4,8 @@
 ##! Example of a ja3 string:
 ##! 769,47-53-5-10-49161-49162-49171-49172-50-56-19-4,0-10-11,23-24-25,0
 
+@load base/protocols/ssl
+
 module ja3;
 
 export {

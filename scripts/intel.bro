@@ -1,5 +1,7 @@
 ##! This script extends the intel framework to support ja3 observation
 
+@load base/frameworks/intel
+
 module ja3;
 
 export {

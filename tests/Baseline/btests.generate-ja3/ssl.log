@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2018-11-13-16-21-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	cert_chain_fuids	client_cert_chain_fuids	subject	issuer	client_subject	client_issuer	client_ja3	server_ja3
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	vector[string]	vector[string]	string	string	string	string	string	string
+1170717505.549109	CHhAvVGS1DHFjwGM9	192.150.187.164	58868	194.127.84.106	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	FeCwNK3rzqPnZ7eBQ5,FfqS7r3rymnsSKq0m2	(empty)	CN=www.dresdner-privat.de,OU=Terms of use at www.verisign.com/rpa (c)00,O=AGIS Allianz Dresdner Informationssysteme GmbH,L=Muenchen,ST=Bayern,C=DE	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\\, Inc.,O=VeriSign Trust Network	-	-	570bab4e22098227f3cbde1a977537e2	53611273a714cb4789c8222932efd5a7
+1170717508.697180	ClEkJM2Vm5giqnMf4h	192.150.187.164	58869	194.127.84.106	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	FjkLnG4s34DVZlaBNc,FpMjNF4snD7UDqI5sk	(empty)	CN=www.dresdner-privat.de,OU=Terms of use at www.verisign.com/rpa (c)00,O=AGIS Allianz Dresdner Informationssysteme GmbH,L=Muenchen,ST=Bayern,C=DE	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\\, Inc.,O=VeriSign Trust Network	-	-	716b10339fb8cc7be0f1e2e7187c73e8	53611273a714cb4789c8222932efd5a7
+1170717511.722913	C4J4Th3PJpwUYZZ6gc	192.150.187.164	58870	194.127.84.106	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	FQXAWgI2FB5STbrff,FUmSiM3TCtsyMGhcd	(empty)	CN=www.dresdner-privat.de,OU=Terms of use at www.verisign.com/rpa (c)00,O=AGIS Allianz Dresdner Informationssysteme GmbH,L=Muenchen,ST=Bayern,C=DE	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\\, Inc.,O=VeriSign Trust Network	-	-	716b10339fb8cc7be0f1e2e7187c73e8	53611273a714cb4789c8222932efd5a7
+#close	2018-11-13-16-21-04
