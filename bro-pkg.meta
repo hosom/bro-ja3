@@ -1,7 +1,8 @@
 [package]
 description = Generate and log ja3 ssl fingerprints
 tags = ja3, ssl, intel
-version = 1.0.3
+version = 1.0.4
 script_dir = scripts
+test_command = cd tests && btest -d btests
 depends = 
     bro >=2.6.0
